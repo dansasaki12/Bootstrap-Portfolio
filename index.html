@@ -13,7 +13,7 @@
 <body background="assets/images/circles-light.png">
     <div id="container">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color:cornflowerblue;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="index.html">Dan Sasaki</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -37,14 +37,15 @@
             </nav>
         </header>
         <hr>
-        <div class="container-fluid" id="main">
+        <div class="container" id="main">
             <div class="row">
                 <h2>About Me</h2>
-                <p id="info">
-                    <div class="image">
+                
+                    <div class="col-md-12">
                         <img src="assets/images/7XQQdEBI.jpg" alt="Avatar" height="150px" width="150px" align="left">
                     </div>
-                    <p class="text">Hello my name is Dan Sasaki, I currently work for Instructre as an Accessibility QA Engineer.
+                    <div class="row">
+                    <p class="col-md-12">Hello my name is Dan Sasaki, I currently work for Instructre as an Accessibility QA Engineer.
                         <br> For this position, I specialize in ensuring that the code we release is accessible for users with
                         disabilities. This can be a user with limited visibility so they'll utilize a screenreader to navigate
                         our pages, a user that can only use the keyboard to navigate or any users that utilize assitive technology
@@ -74,7 +75,7 @@
                         neque accusamus ab consectetur perferendis non voluptatem perspiciatis aliquid magni consequatur
                         doloribus maxime enim numquam beatae quod? Repudiandae.
                     </p>
-                </p>
+                </div>
             </div>
         </div>
         <div class="container-fluid" id="connect">
@@ -106,7 +107,6 @@
         <footer class="footer">
             <p class="text-center">Copyright &copy; Dan Sasaki</p>
         </footer>
-    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
