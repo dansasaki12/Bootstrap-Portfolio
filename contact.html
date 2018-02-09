@@ -36,19 +36,21 @@
         <div class="container" id="main">
             <h2>Contact</h2>
             <p id="connect3">
-                <form id="forms">
-                    Name:
-                    <br>
-                    <input type="text" name="name" placeholder="John Doe">
-                    <br> Email:
-                    <br>
-                    <input type="text" name="email" placeholder="example@email.com">
-                    <br>
-                    <br> Message:
-                    <br>
-                    <textarea id="message" name="subject" placeholder="Write something..." style="height:200px"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
+                    <form>
+                            <div class="form-group">
+                                    <label for="exampleInputPassword1">Name:</label>
+                                    <input type="name" class="form-control" id="exampleInputPassword1" placeholder="John Doe">
+                                  </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email Address:</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
             </p>
         </div>
         <div class="container-fluid" id="connect">
