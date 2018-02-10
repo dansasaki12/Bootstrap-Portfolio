@@ -29,6 +29,19 @@ h3 {
     background-color: #4aaaa5;
 }
 
+.card-header{
+  background-color: #4aaaa5;
+}
+.card-block
+{
+  background-color: white;
+  outline: 1px;
+}
+.card-text, .card-title
+{
+  background-color: white;
+  margin: 0px;
+}
 
 
 
